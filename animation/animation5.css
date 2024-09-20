@@ -1,0 +1,104 @@
+body {
+  background-color: aqua;
+}
+
+.box {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  z-index: -1;
+  top: 400px;
+  left: 500px;
+  height: 100px;
+  width: 200px;
+  border-radius: 0 0 200px 200px;
+  /* box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.533); */
+  background-color: rgb(9, 39, 100);
+  color: rgba(255, 255, 255, 0);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.box p {
+  position: inherit;
+  top: -28px;
+  transition-duration: 500ms;
+}
+
+.p1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.p2 {
+  font-size: 25px;
+  margin: 0 80px;
+  text-align: center;
+}
+
+.box button .p3 {
+  position: relative;
+  top: -150px;
+  left: 0;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition-duration: 500ms;
+}
+
+section .box button {
+  color: rgba(255, 255, 255, 0);
+  background-color: rgba(255, 255, 255, 0);
+
+  position: relative;
+  top: -150px;
+  left: 0;
+  cursor: pointer;
+  border: rgba(255, 255, 255, 0);
+
+  margin: 0 0;
+  transition-duration: 500ms;
+}
+
+.box:hover {
+  height: 600px;
+  top: 400px;
+  left: 500px;
+
+  width: 700px;
+  border-radius: 50px 50px;
+}
+
+.box:hover button {
+  background-color: rgba(9, 39, 100, 0);
+  border: solid rgb(255, 255, 255);
+  top: 30px;
+  left: 0px;
+  margin: 0 200px;
+}
+
+.box:hover .p3 {
+  color: rgb(255, 255, 255);
+  top: 0px;
+  left: 0px;
+}
+
+.box:hover p {
+  color: rgb(255, 255, 255);
+}
+
+section .box button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+section .box button:hover .p3 {
+  color: rgb(9, 39, 100);
+}
+
+

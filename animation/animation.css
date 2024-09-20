@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+
+.animation {
+  margin-top: 103px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+  position: relative;
+  top: 500px;
+  left: 1000px;
+  height: 400px;
+  width: 400px;
+  background-color: rgb(251, 251, 252);
+  color: rgb(14, 14, 85);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px 5px;
+  cursor: pointer;
+}
+
+.box .img2 {
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  border-radius: 5px 5px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+  transition-duration: 1000ms;
+  transition-timing-function: ease-in-out;
+}
+
+section .box .content {
+  color: rgb(14, 14, 85);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  justify-content: center;
+}
+
+.box .p1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.box .p2 {
+  text-align: center;
+  font-size: 15px;
+  margin: 0px 40px;
+}
+
+.box button {
+  border: solid rgb(14, 14, 85);
+  background-color: rgba(240, 248, 255, 0);
+  border-width: 4px 4px;
+  padding: 9px 0px;
+  margin: 16px 130px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.box button:hover {
+  background-color: rgb(14, 14, 85);
+  color: rgb(251, 251, 252);
+}
+
+.box:hover .img2 {
+  border-radius: 100px 100px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 25px;
+  left: 150px;
+}

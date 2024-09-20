@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aqua;
+}
+
+img {
+  position: absolute;
+  z-index: 1;
+  border-radius: 30px;
+  height: 400px;
+  width: 637px;
+  top: -110px;
+  left: 185px;
+  box-shadow: 2px 2px 8px 4px rgb(38 37 37 / 86%);
+
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  position: relative;
+  top: 400px;
+  left: 500px;
+  height: 400px;
+  width: 1000px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.533);
+  background-color: white;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
+}
+
+.box p {
+  position: inherit;
+  top: -144px;
+  transition-duration: 1000ms;
+}
+
+.p1 {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.p2 {
+  font-size: 35px;
+  margin: 0 175px;
+  text-align: center;
+}
+
+.box:hover {
+  height: 700px;
+}
+
+.box:hover p {
+  top: 150px;
+}
+/* 
+.section > img:hover .box {
+  height: 600px;
+}
+
+.section > img:hover p {
+  top: 140px;
+} */

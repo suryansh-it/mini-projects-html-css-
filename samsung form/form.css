@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.p1 {
+  font-family: sans-serif;
+}
+
+.p2 {
+  font-weight: bold;
+}
+
+.content {
+  height: 660px;
+  width: 660px;
+  background-color: rgb(23 23 23);
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-weight: 150px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 20px;
+  margin: auto;
+  gap: 70px;
+  z-index: -2;
+}
+
+.Heading {
+  margin: auto;
+  font-size: 32px;
+
+  margin-bottom: -50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin: auto;
+}
+
+.label1 {
+  position: absolute;
+  top: 234px;
+  font-size: 20px;
+  color: #ffffff;
+  /* animation-play-state: paused; */
+}
+
+.input1 {
+  border-width: 0 0 2px 0px;
+  background-color: rgba(240, 255, 255, 0);
+  width: 395px;
+  height: 30px;
+  border-color: #0e4274;
+  font-size: 20px;
+  color: #1d92ff;
+  position: relative;
+  top: 5px;
+  z-index: 2;
+}
+
+.input1::placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+
+.input1:focus {
+  outline: none;
+}
+
+.input1:focus ~ .label1 {
+  animation-name: animation;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  /* animation-iteration-count: 1; */
+  /* animation-direction: alternate-reverse; */
+  /* animation-play-state: paused; */
+}
+
+@keyframes animation {
+  50% {
+    position: absolute;
+    top: 234px;
+    font-size: 20px;
+    color: #ffffff;
+  }
+
+  100% {
+    position: absolute;
+    top: 210px;
+    font-size: 14px;
+    color: #1d92ff;
+    /* animation-play-state: paused; */
+  }
+}
+
+/* .input1:focus ~ .label1::after {
+  position: static;
+  top: 210px;
+  font-size: 14px;
+  color: #1d92ff;
+} */
+
+/* .input1:focus .input1::placeholder {
+  position: relative;
+  top: 20px;
+  font-size: 14px;
+  color: #1d92ff00;
+} */
+
+.div0 {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+  position: relative;
+  left: -200px;
+  font-size: 17px;
+  align-items: center;
+}
+
+.label2 {
+  position: relative;
+  left: 0px;
+}
+
+.input2 {
+  height: 25px;
+  width: 25px;
+  /* border-radius: 100%; */
+  visibility: hidden;
+  /* background-color: #1d92ff00; */
+  /* display: none; */
+  position: relative;
+  left: 0px;
+}
+
+.label0 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  /* background-color: rgba(217, 210, 210, 0); */
+  position: absolute;
+  left: 235px;
+  border: solid;
+  border-width: 1px;
+  border-color: #1d92ff;
+}
+
+.svg {
+  display: none;
+  height: 20px;
+  width: 20px;
+
+  border-radius: 50%;
+  position: relative;
+  left: 0px;
+}
+
+.input2:checked ~ .svg {
+  display: block;
+  height: 20px;
+  width: 20px;
+  background-color: #1d92ff;
+  visibility: 100%;
+}
+
+/* .input2:checked { */
+/* background-color: #1d92ff; */
+/* accent-color: #1d92ff; */
+/* visibility: visible; */
+/* display: block; */
+/* left: 40px; */
+/* } */
+/* 
+.input2:checked .label0 {
+  left: 110px;
+
+} */
+
+/* .input2:active ~ .label0 {
+  background-color: #1d92ff;
+} */
+
+/* .label0::after {
+  content: "";
+  position: absolute;
+  display: none;
+} */
+
+/* .input2:checked ~ .label0::after {
+  display: block;
+} */
+
+button:active ~ .label1 {
+  position: absolute;
+  top: 210px;
+  font-size: 14px;
+  color: #1d92ff;
+}
+
+button {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: 100;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  border-radius: 55px;
+  align-items: center;
+}
+
+button:focus ~ .label1 {
+  position: absolute;
+  top: 210px;
+  font-size: 14px;
+  color: #1d92ff;
+}
+
+.b1:focus {
+  border-color: #4590d792;
+  /* outline-width: 3px; */
+}
+
+.b1 {
+  background-color: #0e4274;
+  padding: 13px 20px;
+  color: rgba(255, 255, 255, 0.58);
+}
+
+.input1:focus ~ .b1 {
+  background-color: #1d92ff;
+  color: white;
+}
+
+a {
+  color: #ffffff97;
+}
+
+button img {
+  height: 45px;
+  width: 45px;
+  position: relative;
+  left: -15px;
+}
+
+button p {
+  margin: auto;
+}
+
+.b2 {
+  background-color: rgba(255, 255, 255, 0.498);
+  padding: 2px 20px;
+}
+
+.b3 {
+  background-color: rgba(255, 255, 255, 0.498);
+  padding: 2px 20px;
+}
+
+.b2:focus {
+  border-color: #1d92ff;
+  /* outline-width: 3px; */
+}
+
+.b3:focus {
+  border-color: #1d92ff;
+  /* border-width: 3px; */
+}

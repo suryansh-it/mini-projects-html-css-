@@ -1,0 +1,282 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(62 32 146);
+}
+
+.div1{
+display: flex;  
+    flex-direction: column;
+    gap:40px;
+}
+
+.div0{
+    margin-top: 100px ;
+    margin-left: 1160px;
+    margin-right: 1139px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    color: white;
+}
+
+.p1{
+    padding: 0 92px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.p2{
+    font-size: 20px;
+}
+
+.div2{
+    display: flex;  
+    flex-direction: column;
+    gap:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.div3{
+    display: flex;  
+    flex-direction: row;
+    gap:74px;
+}
+
+.div3 button{
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;  
+    flex-direction: column;
+    gap:15px;
+    padding :13px 47px;
+   cursor:pointer;
+}
+
+.div3 button:hover{
+    background-color: rgb(250 149 157);
+border:none;
+}
+
+.div3 a{
+    text-decoration-line: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.div3 img{
+    height: 30px;
+    width: 32px;
+    margin-left:31px;
+    margin-right: 31px;
+}
+
+
+
+.div7{
+    display: flex;  
+    flex-direction: column;
+    gap:47px;
+   
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 1160px;
+    margin-right: 1160px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 2px 2px  rgb(62 32 146);
+    padding: 50px 50px;
+    align-items:center;
+    justify-content: center;
+    background-color: rgb(255, 253, 253);
+    font-size: 20px;
+    
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form{
+    display: flex;  
+    flex-direction: column;
+    gap:44px;
+}
+
+.p6{
+    margin-right:468px;
+    font-weight: bold;
+}
+
+.div8{
+    display: flex;  
+    flex-direction: row;
+    gap:70px;
+}
+
+.div9{
+    display: flex;  
+    flex-direction: column;
+    gap:2px;
+    
+}
+
+.div9 input{
+    padding: 17px 38px 17px 38px;
+    border-radius: 10px;
+    border:none;
+    background-color:  rgb(235 ,233, 233);
+    cursor:pointer;
+    
+}
+
+.div9 input:hover{
+    
+    outline: 1px solid rgb(250 149 157);
+    outline-offset: -1px;
+    
+}
+
+
+
+.div91{
+   
+    display: flex;  
+    flex-direction: column;
+    gap:8px;
+
+}
+
+.div91 input{background-image: url("icons8-user-24.png");
+    background-repeat: no-repeat;
+   background-size: 22px 23px;
+    background-position: 9px 13px
+}
+
+.div91 input:hover{
+    background-image: url("person_FILL1_wght400_GRAD0_opsz48.svg")
+}
+
+.div92{
+    display: flex;  
+    flex-direction: column;
+    gap:8px;
+}
+
+.div92 input{background-image: url("icons8-envelope-50.png");
+    background-repeat: no-repeat;
+    background-size: 19px 21px;
+    background-position: 11px 15px
+}
+
+.div92 input:hover{background-image: url("mail_FILL1_wght400_GRAD0_opsz48.svg");}
+
+.div93{
+    display: flex;  
+    flex-direction: column;
+    gap:8px;
+}
+
+.div93 input{background-image: url("icons8-iphone-se-30.png");
+    background-repeat: no-repeat;
+    background-size: 19px 20px;
+    background-position: 11px 15px;
+   
+}
+
+
+.div93 input:hover{background-image: url("smartphone_FILL1_wght400_GRAD0_opsz48.svg");}
+
+.div11{
+    display: flex;  
+    flex-direction: column;
+    gap:8px;  
+}
+
+/* .div11 input{
+    padding:14px 80px 229px 14px ;
+    border-radius: 10px;
+    background-color:  rgb(235 ,233, 233);
+    border:none;
+    cursor:pointer;
+}
+
+.div11 input:hover{
+    outline: 1px solid rgb(250 149 157);
+    outline-offset: -1px;
+
+}
+ */
+
+  input:hover::placeholder {
+    color:rgb(250 149 157);
+  }
+
+
+  .div11 textarea{
+    padding:14px 80px 218px 13px ;
+    border-radius: 10px;
+    background-color:  rgb(235 ,233, 233);
+    border:none;
+    cursor:pointer;
+}
+
+.div11 textarea:hover{
+    outline: 1px solid rgb(250 149 157);
+    outline-offset: -1px;
+
+}
+
+textarea:hover::placeholder  {
+    color:rgb(250 149 157);
+  } 
+
+
+
+.div12{
+    display: flex;  
+    flex-direction: column;
+    gap:20px;   
+}
+
+.div15{
+    display: flex;  
+    flex-direction: row;
+    gap:40px;
+
+}
+
+button{
+    background-color:  rgb(235 ,233, 233);
+    padding : 13px 20px;
+    border-radius: 10px; 
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    
+    outline: 1px solid rgb(250 149 157);
+    outline-offset: -1px;
+    color: rgb(250 149 157);
+}
+
+.b5{
+    margin:8px 161px ;
+    padding: 17px 0;
+    background-color:rgb(250 149 157);
+    font-weight: bold;
+    color: white;
+    font-size: 17px;
+    cursor:pointer;
+    border:none
+}
+
+.b5:hover{
+
+background-color:rgb(246, 86, 100) ;
+color: white;
+border:none
+}
