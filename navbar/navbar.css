@@ -1,0 +1,38 @@
+*{
+    margin : 0;
+    padding :0;
+    box-sizing : border-BOX; 
+}
+
+.logo{
+    color : rgb(211, 22, 22);
+    font-family : 'Nerko One', cursive;
+}
+nav{
+    background-color: rgb(21, 48, 137);
+    color : red;
+    padding : 15px 60px;
+    display: flex ;
+}
+.nav-container a {
+ color : aqua;
+ text-decoration: none;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ font-size: 13px;
+ margin: 0 10px;
+}
+.nav-link-container a:hover{
+    color: rgb(194, 35, 165)
+}
+
+#contact{
+    background-color : #bb86fc;
+    padding : 4px 13px;
+    border : none ;
+    border-radius : 15px;
+}
+
+#contact:hover{
+    background-color: #4fd7f2;
+    cursor: pointer;
+}

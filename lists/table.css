@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding : 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.list-container {
+    background-color: whitesmoke;
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    overflow-y: scroll;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+border-radius: 13px;
+margin-top: 60px;
+}
+
+.lit h3{
+   padding: 10px;
+   font-size: 1.5rem;
+ position: sticky;
+   
+}
+.lit ul {
+    list-style: none;
+}
+.lit ul li{
+    border-bottom: 1px solid rgb(17, 17, 17);
+padding: 5px 15px;
+font-size: 1.2rem;
+}
+
+.lit>.h31{
+background-color: aquamarine;
+border-bottom: 1px solid rgb(17, 17, 17);
+padding: 5px 15px;
+position:sticky;
+top:0px;
+
+ 
+}
+
+.lit>.h32{
+    background-color: rgb(202, 127, 255);
+    border-bottom: 1px solid rgb(17, 17, 17);
+padding: 5px 15px;
+position:sticky;
+top:0px;
+
+
+    }
+    .lit>.h33{
+        background-color: rgb(245, 118, 148);
+        border-bottom: 1px solid rgb(17, 17, 17);
+padding: 5px 15px;
+position:sticky;
+top:0px;
+
+
+        }
+
+        /* .lit :nth-child(1) h3 ul li :hover {
+            color: rgb(190, 252, 231);
+        } */
+        .h31 ul li:hover{
+color: blue;
+        }
+        
+/*                                         
+        .lit .h31 ul li{
+color: rgb(190, 252, 231);
+        }
+
+        .lit .h32 ul li{
+            color: rgb(235, 179, 227);
+                    }   
+                     
+                   .lit .h33 ul li{
+                        color: rgb(242, 188, 220);
+                    } */

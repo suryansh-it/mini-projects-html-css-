@@ -1,0 +1,62 @@
+*{
+    margin:0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.list{
+    background-color: aliceblue;
+    height: 130px;
+    width: 200px;
+    border: 130px 200px ;
+    
+    
+    margin:auto
+   
+}
+
+.list h3{
+    background-color: blueviolet;
+    border-bottom: 2px solid black;
+    margin-top: 50px ;
+    text-align: center;
+    padding: 3px 0;
+    
+}
+
+.list ul{
+    list-style-type: none;
+}
+
+
+ul li{
+    border-bottom: 1px solid black;
+    background-color: rgb(208, 247, 177);
+}
+
+ul li a{
+ 
+  color: black;
+  padding-bottom: 3px;
+ padding-left: 80px;
+  font-size:smaller;
+  font-weight:bolder;
+  text-decoration-line: none;
+  
+}
+
+.list ul li a:hover{
+    color:rgb(108, 18, 198);
+}
+
+
+.list p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 7px;
+    text-align: center;
+    margin: 5px 0;
+}
